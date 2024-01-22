@@ -1,0 +1,23 @@
+.triangle::after {
+    content: '';
+    position:absolute;
+    top:50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 95px solid transparent;
+    border-right: 95px solid transparent;
+    border-bottom: 180px solid goldenrod;
+  }
+  .triangle-reverse{
+    position:absolute;
+    top:58%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-left: 95px solid transparent;
+    border-right: 95px solid transparent;
+    border-top: 180px solid goldenrod;
+    
+  }
+  
